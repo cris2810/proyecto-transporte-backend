@@ -1,3 +1,11 @@
 CLOUD_NAME=dq0cibhve
 CLOUD_API_KEY=832991197887888
 CLOUD_API_SECRET=nTJsf0quDWaDKLvFrPUEhNqolh8
+node_modules/
+.env
+uploads/
+dist/
+build/
+.DS_Store
+coverage/
+
