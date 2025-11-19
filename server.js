@@ -16,8 +16,12 @@ app.use(express.json());
 app.use(cors());
 app.use(bodyParser.json());
 
-// Conexión Mongo (como ya la tienes)
-// ...
+mongoose.connect('mongodb+srv://cristianolguin22:slNEUCUgxPdHS7sL@cluster1.bpl97o3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1', {
+ 
+})
+.then(() => console.log('Conectado a MongoDB'))
+.catch((error) => console.log('Error de conexión a MongoDB:', error));
+
 
 // Rutas API
 app.use('/api', userRoutes);
