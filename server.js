@@ -7,7 +7,6 @@ const cors = require('cors');
 const paymentRoutes = require('./routes/paymentRoutes.js');
 const pagoRoutes = require('./routes/pagoRoutes.js');
 const  registerUser  = require('./controllers/userController.js');
-const Asistencia = require('./models/Asistencia.js');
 const asistenciaRoutes = require('./routes/asistenciaRoutes.js');
 const app = express();
 const PORT = process.env.PORT || 5000;
