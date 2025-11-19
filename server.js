@@ -30,7 +30,7 @@ app.use('/api', userRoutes);
 app.use('/api/auth', loginRoutes);
 app.use('/api', paymentRoutes);
 app.use('/api', pagoRoutes);
-app.use("/api", asistenciaRoutes);
+app.use("/api/asistencia", asistenciaRoutes)
 
 
 // Ruta de autenticaciónq
