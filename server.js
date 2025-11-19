@@ -33,7 +33,7 @@ app.use('/api/auth', loginRoutes);
 app.use('/api', paymentRoutes);
 app.use('/api', pagoRoutes);
 app.use("/api", uploadRoutes);
-
+app.use("/api", asistenciaRoutes);
 
 
 // Ruta de autenticaciónq
