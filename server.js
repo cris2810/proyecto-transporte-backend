@@ -7,7 +7,6 @@ const cors = require('cors');
 const paymentRoutes = require('./routes/paymentRoutes.js');
 const pagoRoutes = require('./routes/pagoRoutes.js');
 const  registerUser  = require('./controllers/userController.js');
-const uploadRoutes = require('./routes/uploadRoutes.js');
 const Asistencia = require('./models/Asistencia.js');
 const asistenciaRoutes = require('./routes/asistenciaRoutes.js');
 const app = express();
@@ -32,7 +31,6 @@ app.use('/api', userRoutes);
 app.use('/api/auth', loginRoutes);
 app.use('/api', paymentRoutes);
 app.use('/api', pagoRoutes);
-app.use("/api", uploadRoutes);
 app.use("/api", asistenciaRoutes);
 
 
